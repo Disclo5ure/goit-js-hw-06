@@ -11,5 +11,5 @@ decButton.addEventListener("click", () => {
 
 incButton.addEventListener("click", () => {
   counterValue++;
-  valueDisplay.innerHTML = counterValue;
+  valueDisplay.textContent = counterValue;
 });

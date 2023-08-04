@@ -24,4 +24,5 @@ createBut.addEventListener("click", () => {
 destroyBut.addEventListener("click", () => {
   container.innerHTML = "";
   size = 30;
+  input.value = "";
 });
